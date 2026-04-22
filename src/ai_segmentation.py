@@ -21,7 +21,7 @@ def describe_clusters(df_original, labels):
 
 
 def generate_segments(cluster_summary):
-    client = OpenAI()   # 👈 SOLO aquí
+    client = OpenAI()   
 
     prompt = f"""
     Eres experto en hoteles.
